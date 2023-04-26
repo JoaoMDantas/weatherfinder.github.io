@@ -43,7 +43,7 @@ function searchInfo(json2){
     document.querySelector('.tempInfo').innerHTML=`${json2.time}<sup>ºC</sup>`;
     document.querySelector('.ventoInfo').innerHTML=`${json2.windSped}<span>km/h</span>`;
     document.querySelector('.umiInfo').innerHTML=`${json2.humidity}<span>(g/m³)</span>`;
-    document.querySelector('.temp img').setAttribute('src',`http://openweathermap.org/img/wn/${json2.tempIcon}@2x.png`);  
+    document.querySelector('.temp img').setAttribute('src',`https://openweathermap.org/img/wn/${json2.tempIcon}@2x.png`);  
 
 };
 
